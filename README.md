@@ -15,9 +15,10 @@ the original MLUT intensity / chroma / luma blend and optional depth fade.
 
 ## Install
 
-Copy the `ComfyUI-MLUT` folder into `ComfyUI/custom_nodes/` and restart. No extra
+Copy the `ComfyUI-MLUT` folder into `ComfyUI/custom_nodes/`. No extra
 Python packages (numpy / torch / Pillow ship with ComfyUI) Go to https://github.com/TheGordinho/MLUT
-and download the shader and texture folders and put them into the ComfyUI/custom_nodes/ComfyUI-MLUT folder.
+and download the shader and texture folders and put them into the ComfyUI/custom_nodes/ComfyUI-MLUT folder
+then restart.
 
 ## Adding your collection
 
