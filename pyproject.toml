@@ -1,0 +1,12 @@
+[project]
+name = "ComfyUi-MLUT"
+description = "Apply color **LUTs** and **swatches/palettes** to images in ComfyUI from one self-contained collection."
+version = "1.0.0"
+license = { text = "LICENSE" }
+
+[project.urls]
+Repository = "https://github.com/TrophiHunter/ComfyUI-MLUT"
+
+[tool.comfy]
+PublisherId = "TrophiHunter"
+DisplayName = "ComfyUI MLUT"
