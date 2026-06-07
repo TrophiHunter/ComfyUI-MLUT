@@ -97,19 +97,6 @@ from `/mlut/sub` whenever category/source changes.
 - `lut_apply_node.py`, `palette_apply_node.py`, `mlut_node.py` — the nodes.
 - `web/mlut_tree.js` (tree browser) + `web/mlut.js` (legacy MLUT dropdown).
 
-## Test
-
-```
-cd ComfyUI/custom_nodes/ComfyUI-MLUT
-python test_mlut.py
-```
-
-Validates cube sampling (3 interpolations), the atlas reshape, per-format
-identity round-trips (`.cube`/`.3dl`/HALD/strip/`.1dlut`), the catalog tree
-builder (deep nesting + extension filtering), palette mapping, and the swatch
-parsers (`.act`/`.aco`/`.ase`/PNG). MLUT-data tests run only if `Textures/`
-is populated.
-
 ## Assumptions (handled defensively — report a sample file if a load fails)
 
 - `.cube` = 3D, input domain 0..1. `.3dl` = blue-fastest ordering, output
